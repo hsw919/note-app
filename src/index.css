@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Header {
+  padding: 25px;
+}
+
+.label {
+  text-align: left;
+}
+
+.header-icon {
+  color: #00d1b2;
+}
+
+.logout {
+  margin-top: .7rem;
+}
+
+.field {
+  margin: 50px 0;
+}
+
+.Note {
+  margin: 20px auto;
+  width: 95%;
+  text-align: left;
+}
+
+.AddNote,
+.EditNote {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.no-notes {
+  margin-top: 10rem;
+}
+
+.time {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.text {
+  line-height: 1.6rem;
+}
+
+.tags {
+  margin-top: 1.5rem;
+}
+
+.tags-span {
+  color: #00d1b2;
+  margin-left: .3rem;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+}
+
+.delete-button {
+  margin-left: .5rem;
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .Note {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .notes-container {
+    -webkit-column-count: 2;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    2;
+    -moz-column-gap:      0px;
+    column-count:         2;
+    column-gap:           0px;  
+  }
+
+  .eachnote {
+    width: 100% !important;
+    height: auto !important;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    padding: 1px 10px;
+  }
+}
